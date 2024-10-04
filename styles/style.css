@@ -49,6 +49,8 @@ header ul li a {
 #sobre,
 #contato {
   display: flex;
+  width: 70%;
+  margin: 0 auto;
 }
 
 section .col {
