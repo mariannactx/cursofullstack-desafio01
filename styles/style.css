@@ -1,0 +1,116 @@
+body {
+  padding: 0 0 70px 0;
+  margin: 0;
+  font-family: 'Inria Sans', sans-serif;
+}
+
+header,
+footer {
+  background-color: #183c32;
+  color: #fff;
+  width: calc(100% - 200px);
+  height: 50px;
+  padding: 10px 100px;
+}
+
+header nav,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin: 10px;
+}
+
+.social img {
+  width: 32px;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin: 0 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#inicio,
+#sobre,
+#contato {
+  display: flex;
+}
+
+section .col {
+  width: 50%;
+  padding: 10px;
+}
+
+section img {
+  width: 100%;
+}
+
+section .row {
+  width: 100%;
+}
+
+#cardapio h1 {
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+}
+
+table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+}
+
+section form label {
+  display: block;
+  margin-top: 10px;
+}
+
+section form input,
+section form textarea {
+  padding: 10px;
+  width: calc(100% - 25px);
+}
+
+section form button {
+  background-color: #183c32;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#whatsapp {
+  width: 100px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}

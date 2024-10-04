@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bercy</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><img class="logo" src="img/logo.png" /></a>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="contato">
+      <div class="col">
+        <img src="img/contato.jpg" />
+      </div>
+      <div class="col">
+        <h1>Contato</h1>
+        <form method="GET" action="contato.html">
+          <div class="row">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" />
+          </div>
+          <div class="row">
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="row">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem"></textarea>
+          </div>
+          <div class="row">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+
+        <a
+          id="whatsapp"
+          aria-label="Chat - WhatsApp"
+          href="https://wa.me/5581981984488"
+          target="_blank"
+        >
+          <img alt="Chat - WhatsApp" src="img/whatsapp.png" />
+        </a>
+
+        <a
+          class="social"
+          href="https://www.instagram.com/bercyvillage/"
+          target="_blank"
+        >
+          <img src="img/instagram_black.png" />
+        </a>
+      </div>
+    </section>
+    <footer>
+      <img class="logo" src="img/logo.png" />
+      <a
+        class="social"
+        href="https://www.instagram.com/bercyvillage/"
+        target="_blank"
+      >
+        <img src="img/instagram.png" />
+      </a>
+    </footer>
+  </body>
+</html>
